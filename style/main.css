@@ -52,7 +52,7 @@ header nav a:hover {
 
 .movie-main {
     font-size: 16px;
-    background-image: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)100%), url('/img/cwi2m8ou.jpg');
+    background-image: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)100%), url('img/cwi2m8ou.jpg');
     height: 400px;
     background-size: cover;
     /*backdrop-filter: blur(2px);*/
