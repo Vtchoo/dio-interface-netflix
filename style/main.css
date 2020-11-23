@@ -1,0 +1,113 @@
+:root {
+    --red: #E50914;
+    --black: #141414;
+}
+
+/* CSS resetting */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;     /* Igual ao react-native */
+}
+
+/* Base */
+body {
+    background: var(--black);
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.container {
+    margin-left: 30px;
+}
+
+header .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo {
+    color: var(--red);
+    font-family: "Arial Black", Times;
+    font-size: 40px;
+    margin-left: 5px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #AAA;
+    margin-right: 10px;
+}
+
+header nav a:hover {
+    color: white
+}
+
+
+/* Main movie container */
+
+
+
+.movie-main {
+    font-size: 16px;
+    background-image: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)100%), url('/img/cwi2m8ou.jpg');
+    height: 400px;
+    background-size: cover;
+    /*backdrop-filter: blur(2px);*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.movie-main .container {
+    width: 70%;
+}
+
+.title {
+    margin-top: 15%;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.description {
+    margin-bottom: 40px;
+    margin-top: 10px;
+}
+
+
+.button {
+    background-color: rgba(0,0,0,.5);
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    margin-right: 15px;
+    font-size: 12px;
+    cursor: pointer;
+
+    transition: .3s ease all;
+}
+
+.button:hover {
+    background-color: white;
+    color: black
+}
+
+.button i {
+    margin-right: 8px;
+}
+
+.movie-box {
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+
+.movies-carousel {
+    margin-top: 5px;
+}
+
+
